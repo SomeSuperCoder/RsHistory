@@ -27,7 +27,6 @@ fn main() {
             )
         );
 
-        println!("{}", new_part.hash);
         history.push(new_part);
     }
 
