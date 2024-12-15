@@ -1,1 +1,4 @@
 /target
+validator_config.yaml
+seed_phrase.txt
+genesis_block.bin

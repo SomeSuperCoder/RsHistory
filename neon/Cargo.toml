@@ -1,0 +1,15 @@
+[package]
+name = "neon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.1"
+serde = { version = "1.0.215", features = ["derive"]}
+serde_json = "1.0.133"
+serde_yaml = "0.9.34"
+sha2 = "0.10.8"
+crypto = { path = "../crypto" }
+bip39 = "2.1.0"
+miniz_oxide = "0.8.0"
+borsh = { version = "1.5.3", features = ["borsh-derive", "derive"] }
